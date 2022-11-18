@@ -7,6 +7,10 @@
     "strict": true, // depende do seu nível de conhecimento em TypeScript, recomendo começar com false
     "esModuleInterop": true
   },
-  "include": ["./src", "test/Order.test.ts"],
+  "include": ["./src",
+    "test/Order.test.ts",
+    "test/OrderItem.test.ts",
+    "test/Coupon.test.ts"
+  ],
   "exclude": ["./node_modules"]
 }
